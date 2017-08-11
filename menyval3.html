@@ -1,0 +1,58 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<div class="container">
+        <a href="index.html" id="info"><h1>Information</h1></a>
+    </div>
+
+    <div class="container">
+
+        <!-- Den lilla kolumnen till vänster där menyn finns -->
+        <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+                    <li id="gul"><a href="menyval4.html">Bara om du vill se något fint(typ)!</a></li>
+                    <li id="blå"><a href="menyval1.html">Om mig</a></li>
+                    <li id="röd"><a href="menyval2.html">Intressen</a></li>
+                    <li id="grön"><a href="menyval3.html">Familj</a></li>
+            </ul>
+        </div>
+
+        <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+        <div class="col-sm-10">
+       <center> <img id="fam" src="bilder/fam.jpg" class="bildkat"></center>
+       <center><h2>FAMILJEN</h2></center> 
+
+       <h4>Min familj är lite ut sprid. Mina morbrödrar bor i USA med sina hustruar pch mina kusiner som jag ser max 1-2 veckor om året. Min mormor och morfar är så gammla så du kan inte komma till oss. Så  jag, mamma, lillebror som spenderar olika lov tillsamans. Jag bor i Stureby, i Enskede, i Stokholm mer säge...skrvier jag inte.</h4>
+
+    </div>
+
+
+</body>
+</html>

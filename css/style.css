@@ -1,0 +1,108 @@
+body{ 
+	background-color: #fecffe;
+ }
+
+li a{
+	color:white;
+	font-size: 20px;
+	font-family: 'lobster two', cursive;
+}
+#gul{
+	background-color: #dbdb13;
+}
+
+#blå{
+	background-color:#92d6e5;
+
+}
+
+#röd{
+	background-color:#f86060;
+}
+
+#grön{
+	background-color:#47e2a1;
+}
+#info{
+	color:#00ff99 
+}
+
+.bildkat{
+	width: 150px;
+	height: 100px;
+}
+.center{
+	text-align: center;
+}
+
+.bild{
+	width: 170px;
+	height: 260px;
+}
+
+.abc{
+	width: 310px;
+	height: 310px;
+}
+#fam{
+	width: 350px;
+	height: 200px;
+}
+.parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bild1{
+    background-image: url("../bilder/hjärta.jpg");
+}
+
+#bild2{
+    background-image: url("../bilder/mu.jpg");
+ }
+
+ .scroll-box{
+  height:100px;
+  width: auto;
+  background-color:#ff00e9;
+  display: block;
+}
+
+#parall{
+  color:white;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #d81c28;
+    color: #c860d6;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.whitebox {
+    position: absolute;
+    top: 900px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 5px solid #f7f720;
+}
